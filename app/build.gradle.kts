@@ -41,7 +41,13 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     // Barcode model dependencies
-    implementation("com.google.mlkit:barcode-scanning:17.2.0")
+
+    implementation("androidx.camera:camera-core:1.0.2")
+    implementation("androidx.camera:camera-lifecycle:1.0.2")
+    implementation("androidx.camera:camera-camera2:1.0.2")
+
+    implementation("androidx.camera:camera-view:1.0.0-alpha32")
+    implementation("com.google.mlkit:barcode-scanning:17.0.2")
 
 
 
